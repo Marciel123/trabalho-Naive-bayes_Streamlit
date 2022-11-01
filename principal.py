@@ -6,9 +6,9 @@ import pandas as pd
 from sklearn.ensemble import RandomForestClassifier
 import pandas as pd #manipulacao de dados
 
-#######################################################
+
 #                importando os dados do csv 
-dados=pd.read_csv('/content/drive/MyDrive/inteligencia artificial/trabalho iris/Iris.csv')
+dados=pd.read_csv('iris')
 
 dados.head()
 classes = dados['Species']
