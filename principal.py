@@ -1,5 +1,3 @@
-from sklearn.naive_bayes import GaussianNB
-import numpy as np
 from sklearn.ensemble import RandomForestClassifier
 import pandas as pd #manipulacao de dados
 
